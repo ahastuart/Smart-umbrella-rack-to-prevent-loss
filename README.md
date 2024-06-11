@@ -1,6 +1,6 @@
 # 2024 사물인터넷 캡스톤 디자인 프로젝트
 
-주제: Smart-umbrella-stand-to-prevent-loss
+주제: Smart-umbrella-stand-to-prevent-loss <br>
       분실방지 스마트 우산꽂이
 
 ## 개요
@@ -12,7 +12,7 @@
 
 1.우산-사용자 매칭
 >_* object tracking 사용
->_* 식당 문 안쪽에 카메라(CCTV)를 설치하여 기술 사용
+>_* 식당 문 안쪽에 카메라(CCTV)를 설치하여 기술 사용 <br>
 >![image](https://github.com/ahastuart/Smart-umbrella-stand-to-prevent-loss/assets/117139643/4d8078cf-6654-4096-8e94-090f33a85c90)
 >+ 사용자가 우산을 들고 식당에 들어오면 Object tracking 기술을 통해서 사람과 우산만 인식하고 tracking함.
 >+ 우산과 사람 사이의 중심 좌표로 최단거리를 계산하여 이 우산의 소유자가 이 사람이다라는 것을 매칭함.
