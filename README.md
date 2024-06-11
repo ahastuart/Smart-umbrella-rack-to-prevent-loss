@@ -1,1 +1,1 @@
-# Smart-umbrella-rack-to-prevent-loss
+# Smart-umbrella-stand-to-prevent-loss
