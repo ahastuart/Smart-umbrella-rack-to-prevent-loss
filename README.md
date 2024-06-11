@@ -34,6 +34,12 @@
 
 ## 시연 영상
 
-##
-
+## 참고 자료
+object tracking: https://github.com/RizwanMunawar/yolov8-object-tracking?tab=readme-ov-file
+https://firebase.google.com/docs/auth/android/email-link-auth?hl=ko&_gl=1*u2revp*_up*MQ..*_ga*MTcyODIzODIwNS4xNzE4MTA5NDgz*_ga_CW55HF8NVT*MTcxODEwOTQ4Mi4xLjAuMTcxODEwOTQ4Mi4wLjAuMA..​
+https://firebase.google.com/docs/cloud-messaging/android/client?hl=ko&_gl=1*1g8882u*_up*MQ..*_ga*MzY5ODY2NjM4LjE3MTgxMDk1NDE.*_ga_CW55HF8NVT*MTcxODEwOTU0MC4xLjAuMTcxODEwOTU0MC4wLjAuMA..​
+https://bradheo.tistory.com/entry/%EB%9D%BC%EC%A6%88%EB%B2%A0%EB%A6%AC%ED%8C%8C%EC%9D%B4-%EB%AA%A8%EB%8B%88%ED%84%B0-%EC%97%86%EC%9D%B4-%EC%97%B0%EA%B2%B0​
+https://security-jeong.tistory.com/97​
+https://splendidlolli.tistory.com/474​
+https://dalseobi.tistory.com/72
 
