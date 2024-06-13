@@ -175,7 +175,7 @@ class DetectionPredictor(BasePredictor):
             store_matched_data(match_data)
             
         # umbrella_stand bounding box
-        umbrella_stand_bbox = (100, 100, 300, 300)  
+        umbrella_stand_bbox = (200, 200, 300, 400)  
         umbrella_stand_x1, umbrella_stand_y1, umbrella_stand_x2, umbrella_stand_y2 = umbrella_stand_bbox
         cv2.rectangle(im0, (umbrella_stand_x1, umbrella_stand_y1), (umbrella_stand_x2, umbrella_stand_y2), (255, 0, 0), 2)
         
@@ -191,7 +191,7 @@ class DetectionPredictor(BasePredictor):
                 break
         
         # Draw counter bounding box
-        counter_bbox = (400, 100, 600, 600)
+        counter_bbox = (450, 100, 600, 400)
         counter_x1, counter_y1, counter_x2, counter_y2 = counter_bbox
         cv2.rectangle(im0, (counter_x1, counter_y1), (counter_x2, counter_y2), (0, 255, 255), 2)
     
