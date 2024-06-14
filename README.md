@@ -3,6 +3,7 @@
 주제: Smart-umbrella-stand-to-prevent-loss <br>
       분실방지 스마트 우산꽂이
 
+
 ## 개요
 
 + 고객들이 식당이나 공공 장소에서 우산을 사용할 때 발생하는 분실 문제를 해결하기 위해 개발된 시스템 <br>
@@ -33,7 +34,8 @@
 ## 기술 및 하드웨어 소개
 
 ## 시연 영상
-
+https://youtube.com/watch?v=cqWXhCVbndw&si=qRCqfZIuVNtB75iX
+<br>
 ## 참고 자료
 * object tracking <br>
 https://github.com/RizwanMunawar/yolov8-object-tracking?tab=readme-ov-file <br>
