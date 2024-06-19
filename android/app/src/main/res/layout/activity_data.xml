@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 메인 레이아웃 설정: RelativeLayout 사용 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- 뒤로 가는 뷰 -->
+    <TextView
+        android:id="@+id/backTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:text="Back"
+        android:padding="8dp"
+        android:textColor="@color/lavender"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:clickable="true" />
+
+    <!-- 날짜 선택을 위한 LinearLayout -->
+    <LinearLayout
+        android:id="@+id/dateTimePickerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/backTextView"
+        android:orientation="horizontal">
+
+        <!-- 이전 날짜 버튼 -->
+        <Button
+            android:id="@+id/previousDateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="&lt;"
+            android:backgroundTint="@color/lavender"/>
+
+        <!-- 선택된 날짜를 표시할 TextView -->
+        <TextView
+            android:id="@+id/selectedDateTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textSize="18sp" />
+
+        <!-- 다음 날짜 버튼 -->
+        <Button
+            android:id="@+id/nextDateButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="&gt;"
+            android:backgroundTint="@color/lavender"/>
+    </LinearLayout>
+
+    <!-- 시간 범위를 선택하기 위한 LinearLayout -->
+    <LinearLayout
+        android:id="@+id/timeRangeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dateTimePickerLayout"
+        android:orientation="horizontal">
+
+        <!-- 시작 시간을 표시할 TextView -->
+        <TextView
+            android:id="@+id/startTimeTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:hint="Start Time"
+            android:textSize="18sp" />
+
+        <!-- 종료 시간을 표시할 TextView -->
+        <TextView
+            android:id="@+id/endTimeTextView"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:hint="End Time"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <!-- 센서 데이터를 표시할 RecyclerView -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/sensorDataRecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/timeRangeLayout" />
+</RelativeLayout>
